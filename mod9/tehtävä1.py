@@ -26,31 +26,3 @@ class Auto:
 
 a1 = Auto("ABC-123", "142 km/h", "82 km/h", "5 km")
 a1.tulosta_ominaisuudet()
-
-'''
-print(f'Auton registeritunnus on {auto.rekisteritunnus}, huippunopeus on {auto.huippunopeus}, nopeus tällä hetkellä on {auto.nopeus} ja kuljettu matka on {auto.matka}.')
-
-    def printtaa(self):
-        print (f'{self.rekisteritunnus}, {self.huippunopeus}, {self.nopeus}, {self.matka}')
-'''
-#f'Koira nimi on {self.nimi} ja syntymävuosi on {self.syntymävuosi}'
-
-'''
-class Auto:
-    def __init__(self, rek_nro, huippunopeus):
-        self.rek_nro = rek_nro
-        self.nopeus = 0
-        self.huippunopeus = huippunopeus
-    def tulosta_ominaisuudet(self):
-        print(f"{self.rek_nro}, huippunopeus: {self.huippunopeus}")
-        print(f"Tämänhetkinen nopeus: {self.nopeus}")
-    def kiihdytä(self, nopeuden_muutos):
-        self.nopeus = self.nopeus + 1 + nopeuden_muutos
-        #rajoitetaan kiihdytyksen tulos huippunopeuteen
-        if self.nopeus > self.huippunopeus:
-            self.nopeus = self.huippunopeus
-        #auto pysähtyy, jos nopeus alle 0
-        if self.nopeus < 0:
-            self.nopeus = 0
-            
-'''
